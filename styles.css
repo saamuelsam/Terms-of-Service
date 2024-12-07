@@ -1,0 +1,78 @@
+/* Reset e configurações gerais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container principal */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Cabeçalho */
+h1 {
+  color: #336636;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Subtítulos */
+h2 {
+  color: #336636;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #A1BA30;
+  padding-bottom: 5px;
+}
+
+/* Parágrafos */
+p {
+  margin: 15px 0;
+}
+
+/* Listas */
+ul {
+  margin: 10px 0 10px 20px;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: #A1BA30;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .container {
+      margin: 20px;
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 1.8rem;
+  }
+
+  h2 {
+      font-size: 1.3rem;
+  }
+}
